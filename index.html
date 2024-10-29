@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- FontAwsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Css File Link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <header>
+      <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-color py-2 border-bottom fixed-top px-2">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" class="img-width">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span>MENU</span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-0 " id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#feature">FEATURED</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#popular">POPULAR</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Carousel Hero Section -->
+          <section class="container-fluid">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item container active">
+                <div class=" carousel d-flex justify-content-center  align-items-center">
+                  <div class=" carousel-content padding-start">
+                    <h1 class="title-size col-lg-6">Life Of The Wild</h1>
+                    <p class=" fs-5 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.ducimus,
+                       esse debitis hic quos earum recusandae. Laborum expedita explicabo 
+                       debitis quae eligendi sunt consectetur
+                       placeat quisquam. Mollitia, omnis.
+                    </p>
+                    <button class="p-2 w-25 mt-4 border-1  border-color text-color">READ MORE <span><i class="fa-solid fa-arrow-right-long" style="color: rgb(231 199 140);"></i></span></button>
+                </div>
+                 <div class="mt-5"> 
+                    <img src="./assets/images/main-banner1.jpg" class="width-photo d-block mt-5" />
+                 </div> 
+                </div>
+              </div>
+              <div class="carousel-item container ">
+                <div class=" carousel d-flex  justify-content-center align-items-center">
+                  <div class=" carousel-content padding-start">
+                    <h1 class="title-size col-lg-6">Birds Gonna Be Happy</h1>
+                    <p class=" fs-5 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.ducimus,
+                       esse debitis hic quos earum recusandae. Laborum expedita explicabo 
+                       debitis quae eligendi sunt consectetur
+                       placeat quisquam. Mollitia, omnis.
+                    </p>
+                    <button class="p-2 w-25 mt-4 border-1  border-color text-color">READ MORE <span><i class="fa-solid fa-arrow-right-long" style="color: rgb(231 199 140);"></i></span></button>
+                </div>
+                 <div class="mt-5"> 
+                    <img src="./assets/images/main-banner2.jpg" class="width-photo d-block mt-5 " />
+                 </div> 
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-arrow-left-long fa-xl" style="color: #c0c0c0;"></i></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-arrow-right-long fa-xl" style="color: #c0c0c0;"></i></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+    </header>
+    <main>
+    <!-- Images Section -->
+      <section class="section-properities py-5">
+         <div class="container">
+          <div class="row p-4">
+            <div class="col-md-12 d-flex justify-content-around  flex-wrap">
+              <img class="photos" src="./assets/images/client-image1.png" />
+              <img class="photos" src="./assets/images/client-image2.png" />
+              <img class="photos" src="./assets/images/client-image3.png" />
+              <img class="photos" src="./assets/images/client-image4.png" />
+              <img class="photos" src="./assets/images/client-image5.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured Books Section -->
+      <section class="my-5" id="feature">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="text-center">
+                       <span class="text-body-tertiary">SOME QUALITY ITEMS</span>
+                      <h2 class="styling fs-1 ">Featured Books</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class=" my-4 card1 border-bottom d-flex justify-content-center flex-lg-nowrap flex-wrap gap-4 w-100">
+              </div>
+         </div>
+         <div class="d-flex mt-3 justify-content-end align-items-center">
+          <span class="mx-3 fw-bold"> View All Products </span>
+          <i class="fa-solid fa-arrow-right-long" style="color: #000000;"></i>
+         </div> 
+       </div> 
+      </section>
+      <!-- Best Selling Book Section -->
+      <section class="section-properities py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="best-book d-flex justify-content-center align-items-center flex-lg-nowrap flex-wrap gap-2">  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Popular Books Section -->
+      <section class="my-5" id="popular">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                     <span class="text-body-tertiary">SOME QUALITY ITEMS</span>
+                    <h2 class="styling fs-1">Popular Books</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="nav nav-underline d-flex justify-content-evenly  align-items-center">
+              <li class="nav-item active">
+                <a class="nav-link " href="#">All Genre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Technology</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Romantic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Adventure</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Fictional</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class=" my-4 card-books d-flex justify-content-center flex-lg-nowrap flex-wrap gap-4 " >
+            </div>
+          </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class=" my-4 card-books-2 d-flex justify-content-center flex-lg-nowrap flex-wrap gap-4 " >
+          </div>
+        </div>
+     </div>
+        </div>
+      </section>
+      <!-- Subscribe Section -->
+       <section class="section-properities  p-5"> 
+        <div class="container">
+           <div class="row p-5 mt-5">
+              <div class=" d-flex justify-content-center align-items-center flex-lg-nowrap flex-wrap gap-4">
+                <h2 class="fs-1  best-books col-lg-4">Subscribe To Our Newsletter</h2>
+                 <div class="col-lg-4"> 
+                  <p class="text-dark-emphasis">Sed eu feugiat amet, libro ipsum enim pharetra hac dolor sit smet, consectetur.Elit 
+                    adipisicing enim pharetra hac.
+                  </p>
+                  <form class="border-bottom border-secondary-subtle  ">
+                    <input class="border-0 p-3 bg-transparent text-dark-emphasis" placeholder="Enter your email her" />
+                    <button class="fw-bold border-0 text-dark bg-transparent">SEND <i class="fa-solid fa-paper-plane" style="color: #000000;"></i></button>
+                  </form >
+                </div>
+              </div>
+           </div> 
+         </div> 
+      </section>
+    </main>
+    <footer>
+      <section class="section-color">
+        <div class="container">
+          <div class="row middle">
+            <div class="col-md-3 text-center col-lg-3 mt-5 ">
+              <img class="img-width mb-3" src="./assets/images/logo.png" />
+              <p class=" w-100 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quam sint vitae eum, quaerat ad quae
+               at quia fugiat molestiae accusantium vel dignissimos. Alias voluptas, dolorum esse reiciendis tenetur nemo.
+              </p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 about-foot ms-auto text-center mt-5">
+              <h3 class="fs-4 mb-4">About Us</h3>
+              <p class="mb-3 ms-3"><a class=" text-dark text-decoration-none" href="#">vision</a></p>
+              <p class="mb-3 ms-3"><a class=" text-dark text-decoration-none" href="#">articles</a></p>
+              <p class="mb-3 ms-3"><a class=" text-dark text-decoration-none" href="#">careers</a></p>
+              <p class="mb-3"><a class=" text-dark text-decoration-none" href="#">service terms</a></p>
+              <p class="mb-3 ms-3"><a class=" text-dark text-decoration-none" href="#">donate</a></p>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center mt-5">
+              <h3 class="fs-4 mb-4">Discover</h3>
+              <p class="mb-3  ms-3"><a class="text-dark text-decoration-none" href="#">Home</a></p>
+              <p class="mb-3  ms-3"><a class="text-dark text-decoration-none" href="#">Books</a></p>
+              <p class="mb-3  ms-3"><a class="text-dark text-decoration-none" href="#">Authors</a></p>
+              <p class="mb-3  ms-3"><a class="text-dark text-decoration-none" href="#">Subjects</a></p>
+              <p class="mb-3 "><a class="text-dark text-decoration-none" href="#">Advanced Search</a></p>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center mt-5">
+              <h3 class="fs-4 mb-4">My Account</h3>
+              <p class="mb-3 ms-3"><a class="text-dark text-decoration-none" href="#">Sign in</a></p>
+              <p class="mb-3 ms-3"><a class="text-dark text-decoration-none" href="#">View Cart</a></p>
+              <p class="mb-3 ms-3"><a class="text-dark text-decoration-none" href="#">My Wishlist</a></p>
+              <p class="mb-3"><a class="text-dark text-decoration-none" href="#">Track My Order</a></p>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center mt-5">
+              <h3 class="fs-4 mb-4 ms-3">Help</h3>
+              <p class="mb-3"><a class="text-dark text-decoration-none" href="#">Help Center</a></p>
+              <p class="mb-3 "><a class="text-dark text-decoration-none" href="#">Report a Problem</a></p>
+              <p class="mb-3 "><a class="text-dark text-decoration-none" href="#">Suggesting edits</a></p>
+              <p class="mb-3 "><a class="text-dark text-decoration-none" href="#">Contact us</a></p>
+            </div>
+        </div>
+      </section>
+      <div class=" border-bottom  border-subtle mt-4 mb-4"></div>
+      <div class="d-flex justify-content-around  align-items-start flex-wrap ">
+        <p class=" font col-lg-6">&copy; 2022 All rights reserved Free HTML Template by <span class=" font text-warning-emphasis">TemplatesJungle</span></p>
+        <div class="d-flex justify-content-between align-items-center gap-3">
+          <a href="#"><i class="fa-brands fa-facebook-f" style="color: #000000;"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+          <a href="#"><i class="fa-brands fa-square-behance" style="color: #000000;"></i></a>
+          
+        </div>
+      </div>
+    </footer>
+       <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
